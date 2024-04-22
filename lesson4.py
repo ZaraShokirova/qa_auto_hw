@@ -1,6 +1,6 @@
-# import math
-# import random
-# from decimal import Decimal
+import math
+import random
+from decimal import Decimal
 #
 #
 # a = 0.5
@@ -71,38 +71,91 @@
 
 # словари
 
-d = {'key': 'value',
-     'anouther': 'anouther value'
-}
+# d = {'key': 'value',
+#      'anouther': 'anouther value'
+# }
+#
+# user1 = {
+#     'name': 'Zara',
+#     'age': 30,
+# }
+#
+#
+# user2 = {
+#     'name': 'Milla',
+#     'age': 35,
+# }
+#
+# users = {
+#     25: user1,
+#     42: user2
+# }
+#
+# print(users[42])
+# print(user1['name'])
+# print(user2['name'])
+#
+# users[55] = {'name': 'Bubu', 'age': 13}
+#
+# # Функции словари
+#
+# users.items()
+# users.values()
+# users.keys()
+#
+# # print(users[50])
+# print(users.get(50, {'name': 'default user'}))
+# print(users.get(25, {'name': 'default user'}))
 
-user1 = {
-    'name': 'Zara',
-    'age': 30,
-}
+# b = bool
+#
+# t = True
+# f = False
+# n = None
+#
+# if True:
+#     print('Я выполняюсь')
+#
+# if False:
+#     print('Я никогда не выполняюсь')
+#
+# code = 200
+#
+# if 200 <= code < 400:
+#     print('проверка прошла успешно')
+# elif 400 <= code < 600:
+#     print('проверка не прошла ')
+# else:
+#     print('непонятный код ответа')
+
+# user_list = []
+# if user_list == []
+#     pass
+#
+# items_count = 0
+# if items_count:
+#
+# if 'abc' == ''
+#
+# if 'abc':
+
+# print(bool(100))
+# print(bool(-100))
+# print(bool(0))
+#
+#
+# print(bool('abc'))
+# print(bool(''))
+#
+# print(bool([]))
+# print(bool([1, 2, 3]))
+# print(bool([False]))
 
 
-user2 = {
-    'name': 'Milla',
-    'age': 35,
-}
+required_number = 7
+user_number = random.randint(0, 10)
 
-users = {
-    25: user1,
-    42: user2
-}
+while required_number != user_number:
+    user_number = random.randint(0, 10)
+    print(f'Пользователь ввел число {user_number}')
 
-print(users[42])
-print(user1['name'])
-print(user2['name'])
-
-users[55] = {'name': 'Bubu', 'age': 13}
-
-# Функции словари
-
-users.items()
-users.values()
-users.keys()
-
-# print(users[50])
-print(users.get(50, {'name': 'default user'}))
-print(users.get(25, {'name': 'default user'}))
