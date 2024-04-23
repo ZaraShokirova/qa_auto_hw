@@ -11,8 +11,8 @@ def open_login_form():
 def test_valid_login():
     open_login_form()
 
-    browser.element('#username').type('zarina.shokirova@alif.tj')
-    browser.element('#password').type('Z@r@mir13')
+    browser.element('#username').type('')
+    browser.element('#password').type('')
     browser.element('.pf-c-button').click()
 
     browser.element('.MuiPaper-elevation4 .MuiTypography-root').should(have.exact_text('Core Reports'))
